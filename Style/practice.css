@@ -107,11 +107,26 @@ header {
 .icon img {
     align-items: center;
 }
+ /* gradient section style */
 
 .gradient-section-container {
     background-image: url('../images/watch.png');
     width: 1140px;
     height: 300px;
-    flex-shrink: 0;
+    padding-left: 30px;
+    margin: auto;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
     
+    
+
+}
+
+.gradient-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 60px;  
+
 }
