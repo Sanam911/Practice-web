@@ -88,3 +88,30 @@ header {
     font-weight: 400;
     text-align: left;
 }
+
+.main-i-sec-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+}
+
+.i-sec-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.icon img {
+    align-items: center;
+}
+
+.gradient-section-container {
+    background-image: url('../images/watch.png');
+    width: 1140px;
+    height: 300px;
+    flex-shrink: 0;
+    
+}
